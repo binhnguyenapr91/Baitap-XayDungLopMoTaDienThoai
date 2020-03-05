@@ -1,0 +1,46 @@
+.container{
+    width: 50%;
+    height: 510px;
+    background-color: lightslategray;
+    border: 10px solid lightslategray;
+    margin: auto;
+}
+
+.left1container{
+    width: 50%;
+    height: 100%;
+    background-color: dodgerblue;
+    float: left;
+}
+
+.right1container{
+    width: 50%;
+    height: 100%;
+    background-color:aqua ;
+    float: left;
+}
+#myTextArea1{
+    width: 400px;
+    height: 200px;
+}
+
+#myTextArea2{
+    width: 400px;
+    height:200px;
+}
+td{
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+
+button{
+    width:100%;
+}
+
+select{
+    width: 100%;
+    float: left;
+}
+

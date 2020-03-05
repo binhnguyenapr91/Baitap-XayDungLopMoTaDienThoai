@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body>
+<div class="container">
+    <div class="left1container">
+        <table>
+            <tr>
+                <td id="phoneName">IPHONE</td>
+                <td id="chargingStatus">ON/OFF CHARGING</td>
+                <td id="batteryStatus"></td>
+                <td><button id="powerStatus">ON/OFF</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="btnPhone1Send" onclick="sendMessage(iphone,samsung)">Send</button></td>
+                <td>
+                    <button>Write</button></td>
+                <td>
+                    <button>Delete</button></td>
+                <td>
+                    <button>#</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <textarea id="myTextArea1">
+                    </textarea>
+                </td>
+            </tr>
+            <tr id="messageBox1">
+                <td>
+                    <select name="" id="listInboxMess">
+                    </select></td>
+                <td>
+                    <select name="" id="listOutboxMess">
+                    </select></td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Check Inbox</button></td>
+                <td>
+                    <button>Check SentBox</button></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="right1container">
+        <table>
+            <tr>
+                <td>SAMSUNG</td>
+                <td>ONCHARGING</td>
+                <td>BATT/99%</td>
+                <td><button>ON/OFF</button></td>
+            </tr>
+            <tr>
+                <td>
+                    <button id="btnPhone2Send" onclick="sendMessage(samsung,iphone)">Send</button></td>
+                <td>
+                    <button>Write</button></td>
+                <td>
+                    <button>Delete</button></td>
+                <td>
+                    <button>#</button></td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <textarea id="myTextArea2">
+                    </textarea>
+                </td>
+            </tr>
+            <tr id="messageBox2">
+                <td>
+                    <select name="" id="listInboxMess2">
+                    </select></td>
+                <td>
+                    <select name="" id="listOutboxMess2">
+                    </select></td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Check Inbox</button></td>
+                <td>
+                    <button>Check SentBox</button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="js/this.js" defer></script>
+</body>
+</html>
